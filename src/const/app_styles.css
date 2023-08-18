@@ -1,0 +1,293 @@
+:root {
+    --main-font-family: "Montserrat";
+    --dark-theme-background-color: #000000;
+    --light-theme-background-color: #FFFFFF;
+    --dark-theme-highlight-color: #34F3C5;
+    --light-theme-highlight-color: #FF6868;
+    --body-text-font-weight: 500;
+
+    --desktop-title-text-font-size: 8rem;
+    --desktop-subtitle-text-font-size: 7rem;
+    --desktop-body-text-1-font-size: 1.125rem;
+    --desktop-body-text-2-font-size: 1rem;
+    --desktop-body-text-3-font-size: 0.75rem;
+
+    --mobile-title-text-font-size: 3rem;
+    --mobile-subtitle-text-font-size: 2.5rem;
+    --mobile-body-text-1-font-size: 1.125rem;
+    --mobile-body-text-2-font-size: 1rem;
+    --mobile-body-text-3-font-size: 0.75rem;
+}
+
+
+/* ------------------------- Web Styles Start ------------------------- */    
+
+.titleTextWhiteFont {
+    font-family: var(--main-font-family);
+    font-size: var(--desktop-title-text-font-size);
+    font-weight: var(--body-text-font-weight);
+    color: #FFFFFF;
+}
+
+.titleTextHighlightDarkThemeFont {
+    font-family: var(--main-font-family);
+    font-size: var(--desktop-title-text-font-size);
+    font-weight: var(--body-text-font-weight);
+    color: var(--dark-theme-highlight-color);
+}
+
+.titleTextHighlightLightThemeFont {
+    font-family: var(--main-font-family);
+    font-size: var(--desktop-title-text-font-size);
+    font-weight: var(--body-text-font-weight);
+    color: var(--light-theme-highlight-color);
+}
+
+.subtitleTextWhiteFont {
+    font-family: var(--main-font-family);
+    font-size: var(--desktop-subtitle-text-font-size);
+    font-weight: var(--body-text-font-weight);
+    color: #FFFFFF;
+}
+
+.subtitleTextHighlightDarkThemeFont {
+    font-family: var(--main-font-family);
+    font-size: var(--desktop-subtitle-text-font-size);
+    font-weight: var(--body-text-font-weight);
+    color: var(--dark-theme-highlight-color);
+}
+
+.subtitleTextHighlightLightThemeFont {
+    font-family: var(--main-font-family);
+    font-size: var(--desktop-subtitle-text-font-size);
+    font-weight: var(--body-text-font-weight);
+    color: var(--light-theme-highlight-color);
+}
+
+.bodyText1WhiteFontMedium {
+    font-family: var(--main-font-family);
+    font-size: var(--desktop-body-text-1-font-size);
+    font-weight: var(--body-text-font-weight);
+    color: #FFFFFF;
+}
+
+.bodyText1BlackFontMedium {
+    font-family: var(--main-font-family);
+    font-size: var(--desktop-body-text-1-font-size);
+    font-weight: var(--body-text-font-weight);
+    color: #000000;
+}
+
+.bodyText2WhiteFontMedium {
+    font-family: var(--main-font-family);
+    font-size: var(--desktop-body-text-2-font-size);
+    font-weight: var(--body-text-font-weight);
+    color: #FFFFFF;
+}
+
+.bodyText2HighlightDarkThemeFontMedium {
+    font-family: var(--main-font-family);
+    font-size: var(--desktop-body-text-2-font-size);
+    font-weight: var(--body-text-font-weight);
+    color: var(--dark-theme-highlight-color);
+}
+
+.bodyText2BlackFontMedium {
+    font-family: var(--main-font-family);
+    font-size: var(--desktop-body-text-2-font-size);
+    font-weight: var(--body-text-font-weight);
+    color: #000000;
+}
+
+.bodyText2HighlightLightThemeFontMedium {
+    font-family: var(--main-font-family);
+    font-size: var(--desktop-body-text-2-font-size);
+    font-weight: var(--body-text-font-weight);
+    color: var(--light-theme-highlight-color);
+}
+
+.bodyText3WhiteFontMedium {
+    font-family: var(--main-font-family);
+    font-size: var(--desktop-body-text-3-font-size);
+    font-weight: var(--body-text-font-weight);
+    color: #FFFFFF;
+}
+
+.bodyText3GreyFontMedium {
+    font-family: var(--main-font-family);
+    font-size: var(--desktop-body-text-3-font-size);
+    font-weight: var(--body-text-font-weight);
+    color: #BBBBBB;
+}
+
+.bodyText3BlackFontMedium {
+    font-family: var(--main-font-family);
+    font-size: var(--desktop-body-text-3-font-size);
+    font-weight: var(--body-text-font-weight);
+    color: #000000;
+}
+
+.bodyText3HighlightDarkThemeFontMedium {
+    font-family: var(--main-font-family);
+    font-size: var(--desktop-body-text-3-font-size);
+    font-weight: var(--body-text-font-weight);
+    color: var(--dark-theme-highlight-color);
+}
+
+.bodyText3HighlightLightThemeFontMedium {
+    font-family: var(--main-font-family);
+    font-size: var(--desktop-body-text-3-font-size);
+    font-weight: var(--body-text-font-weight);
+    color: var(--light-theme-highlight-color);
+}
+/* ------------------------- Web Styles End ------------------------- */    
+
+
+/* ------------------------- Mobile Styles Start ------------------------- */
+@media all and (min-width:0px) and (max-width: 1024px) {
+    .titleTextWhiteFont {
+        font-family: var(--main-font-family);
+        font-size: var(--mobile-title-text-font-size);
+        font-weight: var(--body-text-font-weight);
+        color: #FFFFFF;
+    }
+
+    .titleTextHighlightDarkThemeFont {
+        font-family: var(--main-font-family);
+        font-size: var(--mobile-title-text-font-size);
+        font-weight: var(--body-text-font-weight);
+        color: var(--dark-theme-highlight-color);
+    }
+    
+    .titleTextHighlightLightThemeFont {
+        font-family: var(--main-font-family);
+        font-size: var(--mobile-title-text-font-size);
+        font-weight: var(--body-text-font-weight);
+        color: var(--light-theme-highlight-color);
+    }
+
+    .subtitleTextWhiteFont {
+        font-family: var(--main-font-family);
+        font-size: var(--mobile-subtitle-text-font-size);
+        font-weight: var(--body-text-font-weight);
+        color: #FFFFFF;
+    }
+    
+    .subtitleTextHighlightDarkThemeFont {
+        font-family: var(--main-font-family);
+        font-size: var(--mobile-subtitle-text-font-size);
+        font-weight: var(--body-text-font-weight);
+        color: var(--dark-theme-highlight-color);
+    }
+    
+    .subtitleTextHighlightLightThemeFont {
+        font-family: var(--main-font-family);
+        font-size: var(--mobile-subtitle-text-font-size);
+        font-weight: var(--body-text-font-weight);
+        color: var(--light-theme-highlight-color);
+    }
+
+    .bodyText1WhiteFont18Medium {
+        font-family: var(--main-font-family);
+        font-size: var(--mobile-body-text-1-font-size);
+        font-weight: var(--body-text-font-weight);
+        color: #FFFFFF;
+    }
+
+    .bodyText1BlackFont18Medium {
+        font-family: var(--main-font-family);
+        font-size: var(--mobile-body-text-1-font-size);
+        font-weight: var(--body-text-font-weight);
+        color: #000000;
+    }
+
+    .bodyText2WhiteFontMedium {
+        font-family: var(--main-font-family);
+        font-size: var(--mobile-body-text-2-font-size);
+        font-weight: var(--body-text-font-weight);
+        color: #FFFFFF;
+    }
+
+    .bodyText2HighlightDarkThemeFontMedium {
+        font-family: var(--main-font-family);
+        font-size: var(--mobile-body-text-2-font-size);
+        font-weight: var(--body-text-font-weight);
+        color: var(--dark-theme-highlight-color);
+    }
+
+    .bodyText2BlackFontMedium {
+        font-family: var(--main-font-family);
+        font-size: var(--mobile-body-text-2-font-size);
+        font-weight: var(--body-text-font-weight);
+        color: #000000;
+    }
+
+    .bodyText2HighlightLightThemeFontMedium {
+        font-family: var(--main-font-family);
+        font-size: var(--mobile-body-text-2-font-size);
+        font-weight: var(--body-text-font-weight);
+        color: var(--light-theme-highlight-color);
+    }
+
+    .bodyText3WhiteFontMedium {
+        font-family: var(--main-font-family);
+        font-size: var(--mobile-body-text-3-font-size);
+        font-weight: var(--body-text-font-weight);
+        color: #FFFFFF;
+    }
+
+    .bodyText3GreyFontMedium {
+        font-family: var(--main-font-family);
+        font-size: var(--mobile-body-text-3-font-size);
+        font-weight: var(--body-text-font-weight);
+        color: #BBBBBB;
+    }
+
+    .bodyText3BlackFontMedium {
+        font-family: var(--main-font-family);
+        font-size: var(--mobile-body-text-3-font-size);
+        font-weight: var(--body-text-font-weight);
+        color: #000000;
+    }
+
+    .bodyText3HighlightDarkThemeFontMedium {
+        font-family: var(--main-font-family);
+        font-size: var(--mobile-body-text-3-font-size);
+        font-weight: var(--body-text-font-weight);
+        color: var(--dark-theme-highlight-color);
+    }
+
+    .bodyText3HighlightLightThemeFontMedium {
+        font-family: var(--main-font-family);
+        font-size: var(--mobile-body-text-3-font-size);
+        font-weight: var(--body-text-font-weight);
+        color: var(--light-theme-highlight-color);
+    }
+}
+/* ------------------------- Mobile Styles End ------------------------- */    
+
+/* @media all and (min-width:801px) and (max-width: 959px) {
+    
+}
+
+@media all and (min-width:769px) and (max-width: 800px) {
+    
+}
+
+@media all and (min-width:569px) and (max-width: 768px) {
+    
+}
+
+@media all and (min-width:481px) and (max-width: 568px) {
+    
+}
+
+@media all and (min-width:321px) and (max-width: 480px) {
+    
+}
+  
+@media all and (min-width:0px) and (max-width: 320px) {
+
+} */
+
+/* test 320 480 568 768 800 1024 */

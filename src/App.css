@@ -1,8 +1,12 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+
+.app {
   text-align: center;
+  background-color: #111111;
+  height: 500vh;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -11,18 +15,7 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+} 
 
 .App-link {
   color: #61dafb;
@@ -36,3 +29,4 @@
     transform: rotate(360deg);
   }
 }
+*/

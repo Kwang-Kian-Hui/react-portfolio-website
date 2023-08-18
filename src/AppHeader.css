@@ -1,0 +1,27 @@
+.app-header {
+    height: 7vh;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    background-color: #111111;
+    display: flex;
+    align-items: center;
+}
+
+.app-icon {
+    font-family: "Archivo";
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+    background: #111111;
+    color: white;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-header-padding {
+    padding: 3vh 5%;
+}

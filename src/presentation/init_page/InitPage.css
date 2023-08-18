@@ -1,0 +1,8 @@
+.init-page {
+    height: 100vh;
+    min-height: 667px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -1,0 +1,34 @@
+.about-page {
+    height: 100vh;
+    min-height: 667px;
+    display: inline-block;
+    vertical-align: start;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh 5%;
+}
+
+.about-page-layout, .about-title-layout, .body-text-layout{
+    display: flex;
+    flex-direction: row;
+}
+
+.about-body-layout {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 3rem;
+}
+
+
+@media all and (min-width:0px) and (max-width: 1024px) {
+    .about-page-layout, .about-title-layout {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about-title-layout p {
+        margin: 1.25rem;
+        line-height: 0px;
+    }
+}
